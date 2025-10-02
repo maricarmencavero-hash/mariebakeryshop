@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pasteles Marie</title>
+  <link rel="stylesheet" href="./CSS/Styles.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Manrope:wght@200..800&family=Playwrite+CA:wght@100..400&family=Playwrite+DE+SAS:wght@100..400&family=Sacramento&display=swap');
+</style>
+</head>
+<body>
+
+  
+  <!--Header  -->
+   <header>
+  <div class="logo-container">
+    <img src="../assets/marie-logo.png" class="imagenheader" alt="Logo Pasteles Marie">
+    <!-- Botón hamburguesa -->
+    <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+    <!-- Navegacion -->
+  <nav class="main-nav">
+    <ul class="main-menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="./Pages/Pasteles.html">Nuestros Pasteles</a></li>
+      <li><a href="./Pages/Catering.html">Catering</a></li>
+      <li><a href="./Pages/Nuestra_Historia.html">Sobre Nosotros</a></li>
+      <li><a href="./Pages/Locales.html">Contáctanos</a></li>
+      <li class="carrito">
+          <a href="./Pages/Carrito.html">
+          <img src="../Assets/Carrito.png" alt="Ícono carrito" class="icon">
+          Tu Carrito
+          </a>
+      </li>
+    </ul>
+    </nav>
+        <form action="./Pages/Busqueda.html" method="GET" class="search-form">
+      <input type="text" name="q" placeholder="Buscar..." class="search-input">
+      <button type="submit" class="search-button">Buscar</button>
+    </form>
+  
+   </div>
+</header>
+
+
+
+    <!-- Hero Section -->
+<main>
+  <section>
+    <div class="hero-section">
+      <img src="./Assets/pastelfresacrema.png" alt="Pastel de fresa" class="hero-image">
+      
+      <div class="hero-description">
+        <h1 class="section-title-hero">Deliciosos pasteles para cada ocasión</h1>
+        <p>
+          En Marie Bakery Shop preparamos pasteles artesanales con sabores caseros y presentaciones únicas. Perfectos para cumpleaños, bodas, eventos corporativos o simplemente para darte un gusto. También ofrecemos catering de pasteles con entrega puntual. ¡Haz tu pedido online y disfruta de la dulzura en cada bocado!
+        </p>
+
+        <div class="hero-buttons">
+          <a href="./Pages/Pasteles.html"><button>Pasteles</button></a>
+          <a href="./Pages/Catering.html"><button>Catering</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Favoritas Section -->
+
+<section>
+  <h2>Las Favoritas de Siempre</h2>
+  <p class=" favoritas-descripcion">Nuestras clásicas irresistibles. Recetas artesanales, hechas desde cero, con ingredientes de calidad y ese toque casero que nos distingue.</p>
+  <div class="favoritas-cards">
+   <article class="favorita-1">
+      <img src="./Assets/Pastel-fresa.webp" alt="pastel de fresa">
+      <h3>Torta de Fresa</h3>
+      <p>Esponjoso bizcocho de chocolate, 
+        <br>relleno con cremoso manjar.</p>
+      <p>S/. 60 soles</p>
+      <div class="botones-favoritas">
+        <button>Ver más</button>
+        <button>Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="favorita-1">
+      <img src="./Assets/torta-chocolate.jpg" alt="torta chocolate">
+      <h3>Torta de Chocolate</h3>
+      <p>Esponjoso bizcocho de chocolate, 
+        <br>relleno con cremoso manjar.</p>
+      <p>S/. 60 soles</p>
+      <div class="botones-favoritas">
+        <button>Ver más</button>
+        <button>Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="favorita-2">
+      <img src="./Assets/torta-red-velvet.jpg" alt="torta red velvet">
+      <h3>Torta Red Velvet</h3>
+      <p>Bizcocho red velvet con un relleno
+        <br> suave y cremoso.
+      </p>
+      <p>S/. 70 soles</p>
+      <div class="botones-favoritas">
+        <button>Ver más</button>
+        <button>Agregar al carrito</button>
+      </div>
+    </article>
+
+    <article class="favorita-3">   
+      <img src="./Assets/torta-pecanas.jpg" alt="foto de torta de pecanas">
+      <h3>Torta de Pecanas</h3>
+      <p>Crujientes pecanas en un bizcocho 
+        <br>suave y lleno de sabor.</p>
+      <p>S/. 65 soles</p>
+      <div class="botones-favoritas">
+        <button>Ver más</button>
+        <button>Agregar al carrito</button>
+      </div>
+  </article>
+</section>
+
+ 
+<!-- Categorias Section -->
+<section class="categorias-section">
+  <h2>Pasteles Para Cada Ocasión</h2>
+  <p class="categorias-descripcion">Pasteles artesanales para cumpleaños, aniversarios, eventos especiales… o para darte un gusto en cualquier momento.</p>
+  <div class="categorias-grid">
+    <div class="categorias-card">
+      <a href="/Pages/Nuestros_Pasteles_Enteros.html"><img src="./Assets/pastel-cumple.webp" alt="Pasteles Enteros"></a>
+      <h3><a href="/Pages/Nuestros_Pasteles_Enteros.html"> Enteros</a></h3>
+    </div>
+
+    <div class="categorias-card">
+      <img src="./Assets/mini-torta.webp" alt="Mini Pastel">
+      <h3>Minis</h3>
+    </div>
+
+    <div class="categorias-card">
+      <img src="./Assets/catering.jpg" alt="Catering">
+      <h3>Catering</h3>
+    </div>
+
+    <div class="categorias-card">
+      <img src="./Assets/porciones.webp" alt="Porciones">
+      <h3>Porciones</h3>
+    </div>
+
+    <div class="categorias-card">
+      <img src="./Assets/kekes.jpg" alt="Kekes">
+      <h3>Kekes</h3>
+    </div>
+  </div>
+</section>
+</main>
+<!-- Footer Section -->
+<footer class="site-footer">
+  <div class="footer-grid">
+
+    <div class="footer-column">
+      <h4>Mapa del sitio</h4>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="./Pages/Pasteles.html">Nuestros Pasteles</a></li>
+        <li><a href="./Pages/Catering.html">Catering</a></li>
+        <li><a href="./Pages/Nuestra_Historia.html">Sobre Nosotros</a></li>
+        <li><a href="#contacto">Contáctanos</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Categorías</h4>
+      <ul>
+        <li><a href="./Pages/Nuestros_Pasteles_Enteros.html">Pasteles Enteros</a></li>
+        <li><a href="#">Minis</a></li>
+        <li><a href="#">Porciones</a></li>
+        <li><a href="#">Catering</a></li>
+        <li><a href="#">Kekes</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Legales</h4>
+      <ul>
+        <li><a href="#">Políticas de Privacidad</a></li>
+        <li><a href="#">Términos y condiciones</a></li>
+        <li><a href="#">Preguntas frecuentes</a></li>
+        <li><a href="#">Derechos ARCO</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Síguenos en redes</h4>
+      <div class="social-icons">
+        <a href="#"><img src="./Assets/facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="./Assets/instagram-new.png" alt="Instagram"></a>
+        <a href="#"><img src="./Assets/tiktok.svg" alt="TikTok"></a>
+        <a href="#"><img src="./Assets/x.svg" alt="X (Twitter)"></a>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Script -->
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.main-menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>
+
+</body>
+
+</html>

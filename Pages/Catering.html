@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Segunda Landing</title>
+  <link rel="stylesheet" href="../CSS/Styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Aquí va tu header  -->
+   <header>
+  <div class="logo-container">
+    <img src="../Assets/marie-logo.png" class="imagenheader" alt="Logo Pasteles Marie">
+    <!-- Botón hamburguesa -->
+    <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+    <!-- Navegacion -->
+  <nav class="main-nav">
+    <ul class="main-menu">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="Pasteles.html">Nuestros Pasteles</a></li>
+      <li><a href="Catering.html">Catering</a></li>
+      <li><a href="Nuestra_Historia.html">Sobre Nosotros</a></li>
+      <li><a href="Locales.html">Contáctanos</a></li>
+      <li class="carrito">
+          <a href="Carrito.html">
+          <img src="../Assets/Carrito.png" alt="Ícono carrito" class="icon">
+          Tu Carrito
+          </a>
+      </li>
+    </ul>
+    </nav>
+        <form action="./Pages/Busqueda.html" method="GET" class="search-form">
+      <input type="text" name="q" placeholder="Buscar..." class="search-input">
+      <button type="submit" class="search-button">Buscar</button>
+    </form>
+   </div>
+   </header>
+  <!-- Aquí va el contenido principal -->
+<main>
+  <section class="catering-section1">
+  <h1 class="catering-title">Catering</h1>  
+    <div class="catering-grid">
+    <div class="catering-card">
+    <img src="../Assets/catering.jpg" alt="catering dulce">
+    <h2> Dulces</h2>
+  </div>
+    
+    <div class="catering-card">
+    <img src="../Assets/salado.jpg" alt="catering salado">
+    <h2> Salados </h2>
+      </div>
+
+  
+    <div class="catering-card">
+    <img src="../Assets/corporativo.jpeg" alt="catering corporativo">
+    <h2> Corporativo </h2>
+     </div>
+     </div>
+  </section>
+</main>
+<!-- Footer Section -->
+<footer class="site-footer">
+  <div class="footer-grid">
+
+    <div class="footer-column">
+      <h4>Mapa del sitio</h4>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="Pasteles.html">Nuestros Pasteles</a></li>
+        <li><a href="Catering.html">Catering</a></li>
+        <li><a href="Nuestra_Historia.html">Sobre Nosotros</a></li>
+        <li>Contáctanos</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Categorías</h4>
+      <ul>
+        <li><a href="./Nuestros_Pasteles_Enteros.html">Pasteles Enteros</a></li>
+        <li>Minis</li>
+        <li>Porciones</li>
+        <li>Catering</li>
+        <li>Kekes</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Legales</h4>
+      <ul>
+        <li>Políticas de Privacidad</li>
+        <li>Términos y condiciones</li>
+        <li>Preguntas frecuentes</li>
+        <li><Derechos ARCO</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Síguenos en redes</h4>
+      <div class="social-icons">
+        <a href="#"><img src="../Assets/facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="../Assets/instagram-new.png" alt="Instagram"></a>
+        <a href="#"><img src="../Assets/tiktok.svg" alt="TikTok"></a>
+        <a href="#"><img src="../Assets/x.svg" alt="X (Twitter)"></a>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Script -->
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.main-menu');
+
+  toggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>
